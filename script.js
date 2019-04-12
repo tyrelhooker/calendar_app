@@ -8,7 +8,7 @@ select.onchange = function() {
 
   if (choice === 'February') {
     days = 28;
-  } else if (choice === 'September' || 'April' || 'June' || 'November') {
+  } else if (choice === 'September' || choice === 'April' || choice === 'June' || choice === 'November') {
     days = 30;
   } else {
     days = 31;

@@ -1,16 +1,36 @@
 .calendar-box {
   border: solid black 2px;
+  /* display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-rows: 100px; */
+}
+
+.wrapper {
+  margin: 10px;
+  border: solid red 1px;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  /* grid-auto-rows: 100px; */
 }
 
 ul {
   list-style: none;
-  display: flex;
-  width: 150px;
+  text-align: center;
+  /* display: flex; */
+  /* width: 500px; */
+  /* display: table-cell; */
 }
 
 li {
   margin: 5px;
   padding: 25px;
   border: solid black 1pt;
+
+  /* display: inline-block; */
+  /* grid-template-columns: 25% 25%; */
   /* display: flex; */
+  /* grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 3;
+  grid-row-end: 4; */
 }
