@@ -6,7 +6,6 @@ select.onchange = function() {
   let choice = select.value;
   let days;
 
-  // ADD CONDITIONAL HERE
   if (choice === 'February') {
     days = 28;
   } else if (choice === 'September' || 'April' || 'June' || 'November') {
@@ -29,7 +28,3 @@ function createCalendar(days, choice) {
 }
 
 createCalendar(31,'January');
-
-
-
-

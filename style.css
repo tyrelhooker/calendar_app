@@ -1,0 +1,16 @@
+.calendar-box {
+  border: solid black 2px;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  width: 150px;
+}
+
+li {
+  margin: 5px;
+  padding: 25px;
+  border: solid black 1pt;
+  /* display: flex; */
+}
